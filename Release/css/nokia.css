@@ -46,7 +46,7 @@
   top: -12px;
   width: 64px;
   height: 63px;
-  background: url('yellow_phone_icon_hd.png');
+  background: url('../img/yellow_phone_icon_hd.png');
     background-size: 100% auto;
   -webkit-transform: scale(.5);
   -moz-transform: scale(.5);
@@ -141,7 +141,7 @@
   top: 23px;
   width: 64px;
   height: 63px;
-  background: url('yellow_market_icon_hd.png') 0px 0px;
+  background: url('../img/yellow_market_icon_hd.png') 0px 0px;
   background-size: 92px auto;
   -webkit-transform: scale(.5);
   -moz-transform: scale(.5);
@@ -158,7 +158,7 @@
   top: -29px;
   width: 132px;
   height: 132px;
-  background: url('yellow_smart_shoot_64_hd.png');
+  background: url('../img/yellow_smart_shoot_64_hd.png');
   background-size: 100% auto;
   -webkit-transform: scale(.5);
   -moz-transform: scale(.5);
@@ -174,7 +174,7 @@
   top: 41px;
   width: 132px;
   height: 132px;
-  background: url('pic1_64.png');
+  background: url('../img/pic1_64.png');
   -webkit-transform: scale(.5);
   -moz-transform: scale(.5);
   -ms-transform: scale(.5);
@@ -204,7 +204,7 @@
   top: 53px;
   width: 64px;
   height: 64px;
-  background: url('lt-16.png');
+  background: url('../img/lt-16.png');
   -webkit-transform: scale(.35);
   -moz-transform: scale(.35);
   -ms-transform: scale(.35);
@@ -221,7 +221,7 @@
   width: 64px;
   height: 64px;
   opacity:0;
-  background: url('yellow_16.png');
+  background: url('../img/yellow_16.png');
   -webkit-transform: scale(.35);
   -moz-transform: scale(.35);
   -ms-transform: scale(.35);
@@ -237,7 +237,7 @@
   top: 75px;
   width: 64px;
   height: 64px;
-  background: url('rb-16.png');
+  background: url('../img/rb-16.png');
   -webkit-transform: scale(.35);
   -moz-transform: scale(.35);
   -ms-transform: scale(.35);
@@ -254,7 +254,7 @@
   width: 64px;
   height: 64px;
   opacity:0;
-  background: url('yellow_16.png');
+  background: url('../img/yellow_16.png');
   -webkit-transform: scale(.35);
   -moz-transform: scale(.35);
   -ms-transform: scale(.35);
@@ -270,7 +270,7 @@
   top: 53px;
   width: 64px;
   height: 64px;
-  background: url('rt-16.png');
+  background: url('../img/rt-16.png');
   -webkit-transform: scale(.35);
   -moz-transform: scale(.35);
   -ms-transform: scale(.35);
@@ -287,7 +287,7 @@
   width: 64px;
   height: 64px;
   opacity:0;
-  background: url('yellow_16.png');
+  background: url('../img/yellow_16.png');
   -webkit-transform: scale(.35);
   -moz-transform: scale(.35);
   -ms-transform: scale(.35);
@@ -303,7 +303,7 @@
   top: 32px;
   width: 64px;
   height: 128px;
-  background: url('nast-16to32.png');
+  background: url('../img/nast-16to32.png');
   -webkit-transform: scale(.35);
   -moz-transform: scale(.35);
   -ms-transform: scale(.35);
@@ -318,7 +318,7 @@
   top: 97px;
   width: 64px;
   height: 64px;
-  background: url('ksu-16.png');
+  background: url('../img/ksu-16.png');
   -webkit-transform: scale(.35);
   -moz-transform: scale(.35);
   -ms-transform: scale(.35);
@@ -333,7 +333,7 @@
   top: 97px;
   width: 64px;
   height: 64px;
-  background: url('facebook_16_hd.png');
+  background: url('../img/facebook_16_hd.png');
    background-size: 100% auto;
   -webkit-transform: scale(.35);
   -moz-transform: scale(.35);
@@ -351,7 +351,7 @@
   width: 64px;
   height: 64px;
   opacity:0;
-  background: url('yellow_16.png');
+  background: url('../img/yellow_16.png');
   -webkit-transform: scale(.35);
   -moz-transform: scale(.35);
   -ms-transform: scale(.35);
@@ -368,7 +368,7 @@
   top: 97px;
   width: 64px;
   height: 64px;
-  background: url('people_16.png');
+  background: url('../img/people_16.png');
   -webkit-transform: scale(.35);
   -moz-transform: scale(.35);
   -ms-transform: scale(.35);
@@ -383,7 +383,7 @@
   top: 128px;
   width: 64px;
   height: 63px;
-  background: url('yellow_mail_services_hd.png');
+  background: url('../img/yellow_mail_services_hd.png');
   background-size: 100% auto;
   -webkit-transform: scale(.5);
   -moz-transform: scale(.5);
@@ -399,7 +399,7 @@
   top: 128px;
   width: 64px;
   height: 63px;
-  background: url('pic1.png');
+  background: url('../img/pic1.png');
   background-size: 100% auto;
   
   -webkit-transform: scale(.5) rotateX(0deg);
@@ -419,7 +419,7 @@
   top: 128px;
   width: 64px;
   height: 63px;
-  background: url('pic1_b.png');
+  background: url('../img/pic1_b.png');
   background-size: 100% auto;
   -webkit-transition:.5s ease-in-out;
  -moz-transition:.5s ease-in-out;
@@ -445,7 +445,7 @@
   top: 163px;
   width: 64px;
   height: 63px;
-  background: url('pic2.png');
+  background: url('../img/pic2.png');
   
   -webkit-transform: scale(.5);
   -moz-transform: scale(.5);
@@ -460,7 +460,7 @@
   top: 163px;
   width: 64px;
   height: 63px;
-  background: url('reminder_app_hd.png');
+  background: url('../img/reminder_app_hd.png');
   background-size: 100% auto;
   -webkit-transform: scale(.5);
   -moz-transform: scale(.5);
@@ -476,7 +476,7 @@
   top: 111px;
   width: 132px;
   height: 132px;
-    background: url('yellow_nokia_city_lens_64_hd.png');
+    background: url('../img/yellow_nokia_city_lens_64_hd.png');
     background-size: 100% auto;
   -webkit-transition:.5s ease-in-out;
  -moz-transition:.5s ease-in-out;
@@ -503,7 +503,7 @@
   top: 111px;
   width: 132px;
   height: 132px;
-  background: url('yellow_games_pic_64.png');  
+  background: url('../img/yellow_games_pic_64.png');  
   
   -webkit-transform: scale(.5) rotateX(0deg);
   -moz-transform: scale(.5) rotateX(0deg);
@@ -522,7 +522,7 @@
   position: absolute;
   left: -66px;
   top: 180px;
-  background: url('cal_128_hd.png') 0px 0px;
+  background: url('../img/cal_128_hd.png') 0px 0px;
   background-size: 820px auto;
   max-width: 1000px;
   -webkit-transform: scale(.49);
@@ -645,60 +645,60 @@ from {
 
 @-webkit-keyframes texture_shift {
   from {
-      background: url('yellow_market_icon_hd.png') 0px 0px;
+      background: url('../img/yellow_market_icon_hd.png') 0px 0px;
   }
   40% {
-      background: url('yellow_market_icon_hd.png') 0px 0px;
+      background: url('../img/yellow_market_icon_hd.png') 0px 0px;
   }
   45% {
-      background: url('yellow_market_icon_hd.png') -28px 0px;
+      background: url('../img/yellow_market_icon_hd.png') -28px 0px;
   } 
   50% {
-      background: url('yellow_market_icon_hd.png') -28px 0px;
+      background: url('../img/yellow_market_icon_hd.png') -28px 0px;
   } 
   55% {
-      background: url('yellow_market_icon_hd.png') -28px 0px;
+      background: url('../img/yellow_market_icon_hd.png') -28px 0px;
   } 
   60% {
-      background: url('yellow_market_icon_hd.png') 0px 0px;
+      background: url('../img/yellow_market_icon_hd.png') 0px 0px;
   }
   to {
-      background: url('yellow_market_icon_hd.png') 0px 0px;
+      background: url('../img/yellow_market_icon_hd.png') 0px 0px;
   }
 
 } 
 
 @-webkit-keyframes texture_shift_big {
   from {
-     background: url('cal_128_hd.png') 0px 0px;
+     background: url('../img/cal_128_hd.png') 0px 0px;
   }
   
   10% {
-     background: url('cal_128_hd.png') -273px 0px;
+     background: url('../img/cal_128_hd.png') -273px 0px;
   }
   20% {
-     background: url('cal_128_hd.png') -273px 0px;
+     background: url('../img/cal_128_hd.png') -273px 0px;
   }
   30% {
-     background: url('cal_128_hd.png') -273px 0px;
+     background: url('../img/cal_128_hd.png') -273px 0px;
   }
   
   
   40% {
-     background: url('cal_128_hd.png') -545px 0px;
+     background: url('../img/cal_128_hd.png') -545px 0px;
   }
   50% {
-     background: url('cal_128_hd.png') -545px 0px;
+     background: url('../img/cal_128_hd.png') -545px 0px;
   }
   60% {
-     background: url('cal_128_hd.png') -545px 0px;
+     background: url('../img/cal_128_hd.png') -545px 0px;
   }
   
   70% {
-     background: url('cal_128_hd.png') 0px 0px;
+     background: url('../img/cal_128_hd.png') 0px 0px;
   }
   to {
-     background: url('cal_128_hd.png') 0px 0px;
+     background: url('../img/cal_128_hd.png') 0px 0px;
   }
 }
 
