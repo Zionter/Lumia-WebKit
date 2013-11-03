@@ -1,5 +1,6 @@
 @charset UTF-8
 /*Kudinov Ruslan*/
+
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ol,ul,li,fieldset,form,label,table,tbody,tfoot,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
   margin:0;
   padding:0;
@@ -10,22 +11,34 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 @font-face {
-font-family:'SegoeUILight';src:url('latest.eot');src:url('latest.eot?#iefix') format('embedded-opentype'),url('latest.woff') format('woff'),url('latest.ttf') format('truetype'),url('latest.svg#web') format('svg');font-weight:normal;font-style:normal}
+font-family: 'SUI';
+src: url('fonts/latestn.eot');
+src: url('fonts/latestn.eot?#iefix') format('embedded-opentype'),
+     url('fonts/latestn.woff') format('woff'),
+     url('fonts/latestn.ttf') format('truetype'),
+     url('fonts/latestn.svg#web') format('svg');
+font-weight: normal;
+font-style: normal}
+
 @font-face {
-font-family:'SegoeUI';src:url('latestn.eot');src:url('latestn.eot?#iefix') format('embedded-opentype'),url('latestn.woff') format('woff'),url('latestn.ttf') format('truetype'),url('latestn.svg#web') format('svg');font-weight:normal;font-style:normal}
-@font-face {
-font-family:'nexa_boldregular';src:url('nexa_bold.eot');src:url('nexa_bold.eot?#iefix') format('embedded-opentype'),url('nexa_bold.woff') format('woff'),url('nexa_bold.ttf') format('truetype'),url('nexa_bold.svg#nexa_boldregular') format('svg');font-weight:normal;font-style:normal}
+font-family: 'nexa_boldregular';
+src: url('fonts/nexa_bold.eot');
+src: url('fonts/nexa_bold.eot?#iefix') format('embedded-opentype'),
+     url('fonts/nexa_bold.woff') format('woff'),
+     url('fonts/nexa_bold.ttf') format('truetype'),
+     url('fonts/nexa_bold.svg#nexa_boldregular') format('svg');
+font-weight:normal;
+font-style:normal}
 
 html {
   overlfow:hidden;
 }
 
 body {
-
   background-color:#000;
   font-size:100%;
   color:#222;
-  font-family:"SegoeUI","Tahoma","Verdana","Arial","sans-serif";
+  font-family:"SUI","Tahoma","Verdana","Arial","sans-serif";
   font-weight:normal;
   overlfow:hidden;
   -webkit-font-smoothing:antialiased;
@@ -80,9 +93,10 @@ body:hover .lumia_maintext {
   transform:rotate(-90deg) translate(-10px) perspective(300px) rotateX(-15deg)
 }
 h2 {
-  font-family:"SegoeUILight","SegoeUI";
+  font-family:"SUIL","SUI";
   font-size:28px
 }
+/*title of phone*/
 .lumia_model_name {
   position:absolute;
   top: 335px;
@@ -105,7 +119,7 @@ h2 {
   text-shadow: 0 0 50px black; 
 }
 h3 {
-  font-family:"SegoeUI";
+  font-family:"SUI";
   font-size:14px
 }
 .copy_font {
@@ -165,6 +179,7 @@ h3 {
   width:128px;
   height:128px;
 }
+/*animated boxes*/
 .box {
   width:128px;
   height:128px;
