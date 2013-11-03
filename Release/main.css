@@ -1,0 +1,463 @@
+@charset UTF-8
+/*Kudinov Ruslan*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ol,ul,li,fieldset,form,label,table,tbody,tfoot,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+  margin:0;
+  padding:0;
+  border:0;
+  font-size:100%;
+  font:inherit;
+  vertical-align:baseline
+}
+
+@font-face {
+font-family:'SegoeUILight';src:url('latest.eot');src:url('latest.eot?#iefix') format('embedded-opentype'),url('latest.woff') format('woff'),url('latest.ttf') format('truetype'),url('latest.svg#web') format('svg');font-weight:normal;font-style:normal}
+@font-face {
+font-family:'SegoeUI';src:url('latestn.eot');src:url('latestn.eot?#iefix') format('embedded-opentype'),url('latestn.woff') format('woff'),url('latestn.ttf') format('truetype'),url('latestn.svg#web') format('svg');font-weight:normal;font-style:normal}
+@font-face {
+font-family:'nexa_boldregular';src:url('nexa_bold.eot');src:url('nexa_bold.eot?#iefix') format('embedded-opentype'),url('nexa_bold.woff') format('woff'),url('nexa_bold.ttf') format('truetype'),url('nexa_bold.svg#nexa_boldregular') format('svg');font-weight:normal;font-style:normal}
+
+html {
+  overlfow:hidden;
+}
+
+body {
+
+  background-color:#000;
+  font-size:100%;
+  color:#222;
+  font-family:"SegoeUI","Tahoma","Verdana","Arial","sans-serif";
+  font-weight:normal;
+  overlfow:hidden;
+  -webkit-font-smoothing:antialiased;
+  -webkit-text-size-adjust:100%;
+  -ms-text-size-adjust:100%
+}
+
+img  {
+  border:none;
+  text-decoration:none;
+  max-width:100%;
+  height:auto
+}
+
+h1,h2,h3,h4,h5 {
+  color:#fff;
+  padding:0px;
+  margin:0px
+}
+h1 {
+  font-size:48px;
+  font-family:"nexa_boldregular";
+  font-weight:bold;
+  text-transform:uppercase
+}
+.lumia_maintext {
+  position:absolute;
+  top:385px;
+  left:68px;
+  color:white;
+  font-size:84px;
+  line-height:66px;
+  letter-spacing:-4px;
+  -webkit-transition:.5s ease-in-out;
+  -moz-transition:.5s ease-in-out;
+  -ms-transition:.5s ease-in-out;
+  -o-transition:.5s ease-in-out;
+  transition:.5s ease-in-out;
+  opacity:0;
+  -webkit-transform:rotate(-90deg) translate(-10px) perspective(300px) rotateX(90deg);
+  -moz-transform:rotate(-90deg) translate(-10px) perspective(300px) rotateX(90deg);
+  -ms-transform:rotate(-90deg) translate(-10px) perspective(300px) rotateX(90deg);
+  -o-transform:rotate(-90deg) translate(-10px) perspective(300px) rotateX(90deg);
+  transform:rotate(-90deg) translate(-10px) perspective(300px) rotateX(90deg)
+}
+body:hover .lumia_maintext {
+  opacity:1;
+  -webkit-transform:rotate(-90deg) translate(-10px) perspective(300px) rotateX(-15deg);
+  -moz-transform:rotate(-90deg) translate(-10px) perspective(300px) rotateX(-15deg);
+  -ms-transform:rotate(-90deg) translate(-10px) perspective(300px) rotateX(-15deg);
+  -o-transform:rotate(-90deg) translate(-10px) perspective(300px) rotateX(-15deg);
+  transform:rotate(-90deg) translate(-10px) perspective(300px) rotateX(-15deg)
+}
+h2 {
+  font-family:"SegoeUILight","SegoeUI";
+  font-size:28px
+}
+.lumia_model_name {
+  position:absolute;
+  top: 335px;
+  left: 730px;
+  color:white;
+  font-size:56px;
+  line-height:66px;
+  font-weight:bolder;
+  letter-spacing:-4px;
+  -webkit-transition:.5s ease-in-out;
+  -moz-transition:.5s ease-in-out;
+  -ms-transition:.5s ease-in-out;
+  -o-transition:.5s ease-in-out;
+  transition:.5s ease-in-out;
+  z-index:1000;
+  -webkit-text-shadow: 0 0 50px black;
+  -moz-text-shadow: 0 0 50px black;
+  -ms-text-shadow: 0 0 50px black;
+  -o-text-shadow: 0 0 50px black;
+  text-shadow: 0 0 50px black; 
+}
+h3 {
+  font-family:"SegoeUI";
+  font-size:14px
+}
+.copy_font {
+  color:#2269A8;
+  font-family:"calibri","Arial";
+  font-size:8px;
+  font-weight:light
+}
+.main_window {
+  position:relative;
+  margin:0 auto;
+  width:1280px;
+  height:1016px;
+  overflow:hidden
+}
+.overlay {
+ position:absolute;
+ height:1024px;
+ width:1280px;
+ z-index:999
+}
+.maingroup {
+  left:385px;
+  position:relative;
+  -webkit-transition:.3s ease-in-out;
+  -moz-transition:.3s ease-in-out;
+  -ms-transition:.3s ease-in-out;
+  -o-transition:.3s ease-in-out;
+  transition:.3s ease-in-out;
+}
+.checkers {
+  margin-right:0px;
+  padding-left:0px;
+  width:auto;
+  position:relative;
+  float:left;
+}
+.t3d_transform_1 {
+-webkit-transform:translate(-10px) scale(.766) perspective(300px) rotateY(15deg);
+-moz-transform:translate(-10px) scale(.766) perspective(300px) rotateY(15deg);
+-ms-transform:translate(-10px) scale(.766) perspective(300px) rotateY(15deg);
+-o-transform:translate(-10px) scale(.766) perspective(300px) rotateY(15deg);
+}
+
+.col {
+  margin-right:0px;
+  padding-left:0px;
+  width:136px;
+  position:relative;
+  float:left;
+  list-style:none
+}
+.col li {
+  margin-bottom:8px;
+  height:18px;
+  position:relative;
+  width:128px;
+  height:128px;
+}
+.box {
+  width:128px;
+  height:128px;
+  position:relative;
+  -webkit-box-shadow:0 0 0;
+  -moz-box-shadow:0 0 0;
+  -ms-box-shadow:0 0 0;
+  -o-box-shadow:0 0 0;
+  box-shadow:0 0 0;
+}
+.box_redlime {
+  background:#FF2424
+}
+.box_red {
+   opacity:0;
+  background:#FF0000;
+  -webkit-animation: 'opactiy_blink_normal' 8s linear 1s infinite;
+  -moz-animation: 'opactiy_blink_normal' 8s linear 1s infinite;
+  -ms-animation: 'opactiy_blink_normal' 8s linear 1s infinite;
+  -o-animation: 'opactiy_blink_normal' 8s linear 1s infinite;
+  animation: 'opactiy_blink_normal' 8s linear 1s infinite;
+  
+}
+.box_redlighted {
+   opacity:0;
+  background:#EB6E6E;
+  -webkit-animation: 'opactiy_blink_normal' 5s linear 6s infinite;
+  -moz-animation: 'opactiy_blink_normal' 5s linear 6s infinite;
+  -ms-animation: 'opactiy_blink_normal' 5s linear 6s infinite;
+  -o-animation: 'opactiy_blink_normal' 5s linear 6s infinite;
+  animation: 'opactiy_blink_normal' 5s linear 6s infinite;
+}
+.box_blue {
+   opacity:0;
+  background:#6661FF;
+  -webkit-animation: 'opactiy_blink_normal' 3s linear 4s infinite;
+  -moz-animation: 'opactiy_blink_normal' 3s linear 4s infinite;
+  -ms-animation: 'opactiy_blink_normal' 3s linear 4s infinite;
+  -o-animation: 'opactiy_blink_normal' 3s linear 4s infinite;
+  animation: 'opactiy_blink_normal' 3s linear 4s infinite;
+}
+.box_pink {
+   opacity:0;
+  background:#ED3BEA;
+  -webkit-animation: 'opactiy_blink_normal' 4s linear 1s infinite;
+  -moz-animation: 'opactiy_blink_normal' 4s linear 1s infinite;
+  -ms-animation: 'opactiy_blink_normal' 4s linear 1s infinite;
+  -o-animation: 'opactiy_blink_normal' 4s linear 1s infinite;
+  animation: 'opactiy_blink_normal' 4s linear 1s infinite;
+}
+.box_purple {
+  opacity:0;
+  background:#980CF0;
+  -webkit-animation: 'opactiy_blink_normal' 5s linear 9s infinite;
+  -moz-animation: 'opactiy_blink_normal' 5s linear 9s infinite;
+  -ms-animation: 'opactiy_blink_normal' 5s linear 9s infinite;
+  -o-animation: 'opactiy_blink_normal' 5s linear 9s infinite;
+  animation: 'opactiy_blink_normal' 5s linear 9s infinite;
+} 
+.box_green {
+  opacity:0;
+  background:#5BF560;
+  -webkit-animation: 'opactiy_blink_normal' 3s linear 2s infinite;
+  -moz-animation: 'opactiy_blink_normal' 3s linear 2s infinite;
+  -ms-animation: 'opactiy_blink_normal' 3s linear 2s infinite;
+  -o-animation: 'opactiy_blink_normal' 3s linear 2s infinite;
+  animation: 'opactiy_blink_normal' 3s linear 2s infinite;
+}
+.box_yellow {
+  opacity:0;
+  background:#F6FF00;
+  -webkit-animation: 'opactiy_blink_normal' 7s linear 3s infinite;
+  -moz-animation: 'opactiy_blink_normal' 7s linear 3s infinite;
+  -ms-animation: 'opactiy_blink_normal' 7s linear 3s infinite;
+  -o-animation: 'opactiy_blink_normal' 7s linear 3s infinite;
+  animation: 'opactiy_blink_normal' 7s linear 3s infinite;
+}
+.box_darkblue {
+  opacity:0;
+  background:#3638BA;
+  -webkit-animation: 'opactiy_blink_normal' 5s linear 12s infinite;
+  -moz-animation: 'opactiy_blink_normal' 5s linear 12s infinite;
+  -ms-animation: 'opactiy_blink_normal' 5s linear 12s infinite;
+  -o-animation: 'opactiy_blink_normal' 5s linear 12s infinite;
+  animation: 'opactiy_blink_normal' 5s linear 12s infinite;
+}
+.box_darkgreen {
+  opacity:0;
+  background:#00B56D;
+  -webkit-animation: 'opactiy_blink_normal' 5s linear 14s infinite;
+  -moz-animation: 'opactiy_blink_normal' 5s linear 14s infinite;
+  -ms-animation: 'opactiy_blink_normal' 5s linear 14s infinite;
+  -o-animation: 'opactiy_blink_normal' 5s linear 14s infinite;
+  animation: 'opactiy_blink_normal' 5s linear 14s infinite;
+}
+.box_darkred {
+  opacity:0;
+  background:#A10606;
+  -webkit-animation: 'opactiy_blink_normal' 3s linear 6s infinite;
+  -moz-animation: 'opactiy_blink_normal' 3s linear 6s infinite;
+  -ms-animation: 'opactiy_blink_normal' 3s linear 6s infinite;
+  -o-animation: 'opactiy_blink_normal' 3s linear 6s infinite;
+  animation: 'opactiy_blink_normal' 3s linear 6s infinite;
+}
+.box_cyan {
+  opacity:0;
+  background:#00E1FF;
+  -webkit-animation: 'opactiy_blink_normal' 3s linear 11s infinite;
+  -moz-animation: 'opactiy_blink_normal' 3s linear 11s infinite;
+  -ms-animation: 'opactiy_blink_normal' 3s linear 11s infinite;
+  -o-animation: 'opactiy_blink_normal' 3s linear 11s infinite;
+  animation: 'opactiy_blink_normal' 3s linear 11s infinite;
+}
+.box_brightgreen {
+  opacity:0;
+  background:#73FF00;
+  -webkit-animation: 'opactiy_blink_normal' 2s linear 7s infinite;
+  -moz-animation: 'opactiy_blink_normal' 2s linear 7s infinite;
+  -ms-animation: 'opactiy_blink_normal' 2s linear 7s infinite;
+  -o-animation: 'opactiy_blink_normal' 2s linear 7s infinite;
+  animation: 'opactiy_blink_normal' 2s linear 7s infinite;
+}
+.box_brightaddgreen {
+  opacity:0;
+  background:#98FF8C;
+  -webkit-animation: 'opactiy_blink_normal' 8s linear 4s infinite;
+  -moz-animation: 'opactiy_blink_normal' 8s linear 4s infinite;
+  -ms-animation: 'opactiy_blink_normal' 8s linear 4s infinite;
+  -o-animation: 'opactiy_blink_normal' 8s linear 4s infinite;
+  animation: 'opactiy_blink_normal' 8s linear 4s infinite;
+}
+.box_whitegreen {
+  opacity:0;
+  background:#B3FFB5;
+  -webkit-animation: 'opactiy_blink_normal' 8s linear 6s infinite;
+  -moz-animation: 'opactiy_blink_normal' 8s linear 6s infinite;
+  -ms-animation: 'opactiy_blink_normal' 8s linear 6s infinite;
+  -o-animation: 'opactiy_blink_normal' 8s linear 6s infinite;
+  animation: 'opactiy_blink_normal' 8s linear 6s infinite;
+}
+.box_brightblue {
+  opacity:0;
+  background:#9CAAFF;
+  -webkit-animation: 'opactiy_blink_normal' 6s linear 6s infinite;
+  -moz-animation: 'opactiy_blink_normal' 6s linear 6s infinite;
+  -ms-animation: 'opactiy_blink_normal' 6s linear 6s infinite;
+  -o-animation: 'opactiy_blink_normal' 6s linear 6s infinite;
+  animation: 'opactiy_blink_normal' 6s linear 6s infinite;
+}
+
+
+@-webkit-keyframes 'opactiy_blink_normal' {
+ from {
+  opacity:0
+ }
+ 10% {
+  opacity:0
+ }
+ 25% {
+  opacity:.1
+ }
+ 40% {
+  opacity:.8
+ }
+ 50% {
+  opacity:1
+ }
+ 60% {
+  opacity:.8
+ }
+ 75% {
+  opacity:.1
+ }
+ 90% {
+   opacity:0
+ }
+ to {
+   opacity:0
+ }   
+}
+@-moz-keyframes 'opactiy_blink_normal' {
+ from {
+  opacity:0
+ }
+ 10% {
+  opacity:0
+ }
+ 25% {
+  opacity:.1
+ }
+ 40% {
+  opacity:.8
+ }
+ 50% {
+  opacity:1
+ }
+ 60% {
+  opacity:.8
+ }
+ 75% {
+  opacity:.1
+ }
+ 90% {
+   opacity:0
+ }
+ to {
+   opacity:0
+ }   
+}
+@-o-keyframes 'opactiy_blink_normal' {
+ from {
+  opacity:0
+ }
+ 10% {
+  opacity:0
+ }
+ 25% {
+  opacity:.1
+ }
+ 40% {
+  opacity:.8
+ }
+ 50% {
+  opacity:1
+ }
+ 60% {
+  opacity:.8
+ }
+ 75% {
+  opacity:.1
+ }
+ 90% {
+   opacity:0
+ }
+ to {
+   opacity:0
+ }   
+}
+@-ms-keyframes 'opactiy_blink_normal' {
+ from {
+  opacity:0
+ }
+ 10% {
+  opacity:0
+ }
+ 25% {
+  opacity:.1
+ }
+ 40% {
+  opacity:.8
+ }
+ 50% {
+  opacity:1
+ }
+ 60% {
+  opacity:.8
+ }
+ 75% {
+  opacity:.1
+ }
+ 90% {
+   opacity:0
+ }
+ to {
+   opacity:0
+ }   
+}
+@keyframes 'opactiy_blink_normal' {
+ from {
+  opacity:0
+ }
+ 10% {
+  opacity:0
+ }
+ 25% {
+  opacity:.1
+ }
+ 40% {
+  opacity:.8
+ }
+ 50% {
+  opacity:1
+ }
+ 60% {
+  opacity:.8
+ }
+ 75% {
+  opacity:.1
+ }
+ 90% {
+   opacity:0
+ }
+ to {
+   opacity:0
+ }   
+}
